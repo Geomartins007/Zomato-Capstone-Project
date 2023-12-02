@@ -128,4 +128,12 @@ b= y= country_with_excellent_rating[0]
 
 ax= sns.barplot(x= a, y=b)
 
+4. Which countries do have online deliveries?
+has_online_deliveries= final_df[final_df['Has Online delivery']== 'Yes'].groupby(['Country']).size().reset_index()
+
+
+
+
+
+
 ```
