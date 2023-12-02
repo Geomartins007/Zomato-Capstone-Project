@@ -4,7 +4,7 @@ Exploratory Data Analysis___Zomato Capstone Project
 ## Table of Content
 
  - [About the Company](#about-the-company)
- - [Data Source](#data-source)
+ - [About the dataset](#about-the-dataset)
  - [Tools](#tools)
  - [Data Cleaning](#data-cleaning)
  - [Exploratory Data Analysis EDA](#exploratory-data-analysis-eda)
