@@ -89,6 +89,7 @@ final_df= final_df.drop(['Restaurant ID', 'Address', 'Locality Verbose', 'Longit
 final_df= pd.merge(df, df_country, on= 'Country Code', how= 'left')
 
 
+
 # Some Key analyses and visualization
 
 #1. Top 4 countries by orders
