@@ -84,5 +84,17 @@ OR
 #3. Visualizing null values
 sns.heatmap(df.isnull(), yticklabels= False, cbar= True, cmap= 'viridis')
 
+#4. Dropping useless columns
+final_df= final_df.drop(['Restaurant ID', 'Address', 'Locality Verbose', 'Longitude', 'Latitude'], axis= 1)
+
+#5. Merging the two datasets
+final_df= pd.merge(df, df_country, on= 'Country Code', how= 'left')
+
+# Some Key analyses and visualization
+
+
+
+
+
 
 ```
