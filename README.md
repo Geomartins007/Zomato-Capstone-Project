@@ -76,9 +76,7 @@ In the initial data preparion phase, the following tasks were carried out:
 #1. Checking null values
 train_data.isnull().sum()
 
-OR
-
-#2. Another way to check for missing valoues
+#2. Checking for missing valoues
 [columns for columns in df.columns if df[columns].isnull().sum()>0]
 
 #3. Visualizing null values
@@ -92,9 +90,38 @@ final_df= pd.merge(df, df_country, on= 'Country Code', how= 'left')
 
 # Some Key analyses and visualization
 
+#1. Top 4 countries by orders
+plt.pie(x= country_values[:4], labels= country_names[:4], autopct= '%1.2f%%', pctdistance= 0.6)
 
+#2. Top 4 cities by orders
+city_names= final_df.City.value_counts().index
+city_values= final_df.City.value_counts().values
+plt.pie(x= city_values[:4], labels= city_names[:4], autopct= '%1.2f%%')
 
+#3. Customer ratings
+ratings= final_df.groupby(['Aggregate rating', 'Rating color', 
+                  'Rating text']).size().reset_index().rename(columns= {0:'Rating counts'})
 
+sns.barplot(x= 'Aggregate rating', y= 'Rating counts', hue= 'Rating color', 
+            data= ratings, palette= ['blue', 'red', 'orange', 'yellow', 'green', 'green'])
 
+#4. Top customer rating
+sns.countplot(x= 'Rating color', data= ratings, palette= ['blue', 'red', 'orange', 'yellow', 'green', 'green'])
+
+# More In-depth analyses
+
+1. Find the countries that have given 0 rating.
+country_with_zero_rating= final_df[final_df['Aggregate rating'] == 0].groupby(['Country']).size().reset_index()
+
+2. Country with most 'Average rating'
+country_with_average_rating= final_df[final_df['Rating text'] == 'Average'].groupby(['Country']).size().reset_index()
+
+3. Country with most 'Excellent rating'
+country_with_excellent_rating= final_df[final_df['Rating text'] == 'Excellent'].groupby(['Country']).size().reset_index()
+
+a= country_with_excellent_rating['Country']
+b= y= country_with_excellent_rating[0]
+
+ax= sns.barplot(x= a, y=b)
 
 ```
