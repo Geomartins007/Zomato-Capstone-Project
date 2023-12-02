@@ -137,6 +137,9 @@ country_ordering_now= final_df[final_df['Is delivering now']== 'Yes'].groupby(['
 6. top 5 Cuisines
 top_cuisines= final_df.Cuisines.value_counts()[:5].reset_index()
 
+y_values= top_cuisines['index']
+x_values= top_cuisines['Cuisines']
 
+plt.pie(x= x_values, labels= y_values, autopct= '%1.2f%%')
 
 ```
