@@ -39,3 +39,24 @@ The data is taken from url: https://drive.google.com/file/d/1FSa_x3COvCoMODa44qX
 - Countries and their currencies
 - What could have resulted to the results?
 - Suggestions for Zomato company
+
+ ---
+
+### Tools
+
+- Python
+  - Pandas: Data cleaning, Exploratory data analysis (EDA)
+
+  - Seaborn - Data visualization
+
+  - Matplotlib - Data visualization
+
+  - MS PowerPoint - Report preparation
+
+---
+
+### Data Cleaning
+
+---
+
+### Methodology
