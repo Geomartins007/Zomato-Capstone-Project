@@ -88,6 +88,7 @@ final_df= final_df.drop(['Restaurant ID', 'Address', 'Locality Verbose', 'Longit
 #5. Merging the two datasets
 final_df= pd.merge(df, df_country, on= 'Country Code', how= 'left')
 
+
 # Some Key analyses and visualization
 
 #1. Top 4 countries by orders
@@ -107,6 +108,8 @@ sns.barplot(x= 'Aggregate rating', y= 'Rating counts', hue= 'Rating color',
 
 #4. Top customer rating
 sns.countplot(x= 'Rating color', data= ratings, palette= ['blue', 'red', 'orange', 'yellow', 'green', 'green'])
+
+
 
 # More In-depth analyses
 
