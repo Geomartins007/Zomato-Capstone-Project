@@ -131,8 +131,11 @@ ax= sns.barplot(x= a, y=b)
 4. Which countries do have online deliveries?
 has_online_deliveries= final_df[final_df['Has Online delivery']== 'Yes'].groupby(['Country']).size().reset_index()
 
+5. Countries and cities that ordering now
+country_ordering_now= final_df[final_df['Is delivering now']== 'Yes'].groupby(['Country']).size().reset_index()
 
-
+6. top 5 Cuisines
+top_cuisines= final_df.Cuisines.value_counts()[:5].reset_index()
 
 
 
