@@ -155,6 +155,10 @@ The EDA findings are summerized below;
   3. Not rated has the maximium rating.
   4. Maximum frequency occured within the Orange == [(Average and 2.5 - 3.4)]
   5. Minimium frequency occured within the blue == [(Not rated and 0)]
+  6. The majority of the Zero rating comes from Indian customers.
+  7. The minority of the Zero rating comes from UK customers.
+  8. India has the highest average rating followed by US.
+  9. The lowest average rating comes from Indonesia, UAE, and SA
 
 
 
