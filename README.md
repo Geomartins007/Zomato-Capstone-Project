@@ -34,9 +34,8 @@ The data is taken from url: https://drive.google.com/file/d/1FSa_x3COvCoMODa44qX
 
 - Top Cuisines that ordered
 - Top countries and cities using Zomato
-- Rating and Country
-- Countries and cities with the highest rating
-- Countries and their currencies
+- Cuisines Ratings
+- Countries with the highest rating
 - What could have resulted to the results?
 - Suggestions for Zomato company
 
@@ -170,13 +169,17 @@ The EDA findings are summerized below;
   3. Noida
   4. Faridabad
 
-- Rating and Country
+- Cuisines Ratings
  1. 'Not rated' has the maximium rating counts.
  2. Maximum rating frequency occured within the Orange == [(Average and 2.5 - 3.4)]
+ 3. Minimium frequency occured within the blue == [(Not rated and 0)]
 
   
-- Countries and cities with the highest rating
-
+- Countries with the highest rating
+ 1. The majority of the Zero rating comes from Indian customers.
+ 2. The minority of the Zero rating comes from UK customers.
+ 3. India has the highest average rating followed by US.
+ 4. The lowest average rating comes from Indonesia, UAE, and South Africa.
 
   
 
