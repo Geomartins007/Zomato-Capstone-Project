@@ -149,3 +149,8 @@ plt.pie(x= x_values, labels= y_values, autopct= '%1.2f%%')
 ### Results
 
 The EDA findings are summerized below;
+
+- 1. The maximium transaction records come fro India, US, UK, and Brazil
+
+
+
