@@ -169,7 +169,20 @@ The EDA findings are summerized below;
   2. Gurgaon
   3. Noida
   4. Faridabad
-     
+
+- Rating and Country
+
+  
+- Countries and cities with the highest rating
+
+  
+
+- What could have resulted to the results?
+
+  
+- Suggestions for Zomato company
+
+  
 - 1. The maximium transaction records come fro India, US, UK, and Brazil.
 - 2. Maximium transaction come from New Delhi City (India).
   3. Not rated has the maximium rating.
