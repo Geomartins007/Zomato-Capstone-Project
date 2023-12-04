@@ -171,7 +171,8 @@ The EDA findings are summerized below;
   4. Faridabad
 
 - Rating and Country
-
+ 1. 'Not rated' has the maximium rating counts.
+ 2. Maximum rating frequency occured within the Orange == [(Average and 2.5 - 3.4)]
 
   
 - Countries and cities with the highest rating
