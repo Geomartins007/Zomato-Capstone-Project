@@ -170,17 +170,17 @@ The EDA findings are summerized below;
   4. Faridabad
 
 - Cuisines Ratings
- 1. 'Not rated' has the maximium rating counts.
- 2. Maximum rating frequency occured within the Orange == [(Average and 2.5 - 3.4)]
- 3. Minimium frequency occured within the blue == [(Not rated and 0)]
+  1. 'Not rated' has the maximium rating counts.
+  2. Maximum rating frequency occured within the Orange == [(Average and 2.5 - 3.4)]
+  3. Minimium frequency occured within the blue == [(Not rated and 0)]
   
 - Countries with the highest rating
- 1. The majority of the Zero rating comes from Indian customers.
- 2. The minority of the Zero rating comes from UK customers.
- 3. India has the highest average rating followed by US.
- 4. The lowest average rating comes from Indonesia, UAE, and South Africa.
- 5. The majority of the Excellent rating comes from Indian customers followed by US.
- 6. The minority of the Excellent rating comes from Australian customers.
+  1. The majority of the Zero rating comes from Indian customers.
+  2. The minority of the Zero rating comes from UK customers.
+  3. India has the highest average rating followed by US.
+  4. The lowest average rating comes from Indonesia, UAE, and South Africa.
+  5. The majority of the Excellent rating comes from Indian customers followed by US.
+  6. The minority of the Excellent rating comes from Australian customers.
   
 - What could have resulted to the results?
 
