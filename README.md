@@ -158,7 +158,10 @@ The EDA findings are summerized below;
   6. The majority of the Zero rating comes from Indian customers.
   7. The minority of the Zero rating comes from UK customers.
   8. India has the highest average rating followed by US.
-  9. The lowest average rating comes from Indonesia, UAE, and SA
+  9. The lowest average rating comes from Indonesia, UAE, and SA.
+  10. The majority of the Excellent rating comes from Indian customers followed by US.
+  11. The minority of the Excellent rating comes from Australian customers.
+  
 
 
 
