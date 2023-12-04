@@ -172,15 +172,20 @@ The EDA findings are summerized below;
 
 - Rating and Country
 
+
   
 - Countries and cities with the highest rating
+
 
   
 
 - What could have resulted to the results?
 
+
   
 - Suggestions for Zomato company
+
+
 
   
 - 1. The maximium transaction records come fro India, US, UK, and Brazil.
