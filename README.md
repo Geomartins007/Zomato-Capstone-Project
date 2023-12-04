@@ -152,6 +152,9 @@ The EDA findings are summerized below;
 
 - 1. The maximium transaction records come fro India, US, UK, and Brazil.
 - 2. Maximium transaction come from New Delhi City (India).
+  3. Not rated has the maximium rating.
+  4. Maximum frequency occured within the Orange == [(Average and 2.5 - 3.4)]
+  5. Minimium frequency occured within the blue == [(Not rated and 0)]
 
 
 
