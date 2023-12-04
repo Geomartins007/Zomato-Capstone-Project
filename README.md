@@ -150,6 +150,26 @@ plt.pie(x= x_values, labels= y_values, autopct= '%1.2f%%')
 
 The EDA findings are summerized below;
 
+
+- Top 5 cuisines by orders are:
+  1. North Indian Food
+  2. North Indian, Chinese Food
+  3. Chinese Food
+  4. Fast Food
+  5. North Indian, Mughlai
+
+- Top 4 countries using Zomato:
+  1. India
+  2. US
+  3. UK
+  4. Brazil
+
+- Top 4 cities using Zomato:
+  1. New Delhi
+  2. Gurgaon
+  3. Noida
+  4. Faridabad
+     
 - 1. The maximium transaction records come fro India, US, UK, and Brazil.
 - 2. Maximium transaction come from New Delhi City (India).
   3. Not rated has the maximium rating.
