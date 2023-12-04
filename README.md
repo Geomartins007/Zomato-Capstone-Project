@@ -173,16 +173,15 @@ The EDA findings are summerized below;
  1. 'Not rated' has the maximium rating counts.
  2. Maximum rating frequency occured within the Orange == [(Average and 2.5 - 3.4)]
  3. Minimium frequency occured within the blue == [(Not rated and 0)]
-
   
 - Countries with the highest rating
  1. The majority of the Zero rating comes from Indian customers.
  2. The minority of the Zero rating comes from UK customers.
  3. India has the highest average rating followed by US.
  4. The lowest average rating comes from Indonesia, UAE, and South Africa.
-
+ 5. The majority of the Excellent rating comes from Indian customers followed by US.
+ 6. The minority of the Excellent rating comes from Australian customers.
   
-
 - What could have resulted to the results?
 
 
@@ -190,20 +189,6 @@ The EDA findings are summerized below;
 - Suggestions for Zomato company
 
 
-
-  
-- 1. The maximium transaction records come fro India, US, UK, and Brazil.
-- 2. Maximium transaction come from New Delhi City (India).
-  3. Not rated has the maximium rating.
-  4. Maximum frequency occured within the Orange == [(Average and 2.5 - 3.4)]
-  5. Minimium frequency occured within the blue == [(Not rated and 0)]
-  6. The majority of the Zero rating comes from Indian customers.
-  7. The minority of the Zero rating comes from UK customers.
-  8. India has the highest average rating followed by US.
-  9. The lowest average rating comes from Indonesia, UAE, and SA.
-  10. The majority of the Excellent rating comes from Indian customers followed by US.
-  11. The minority of the Excellent rating comes from Australian customers.
-  
 
 
 
